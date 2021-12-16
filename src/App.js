@@ -7,7 +7,8 @@ import SingleCategory from "./components/SingleCategory/SingleCategory";
 import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
 import Header from "./components/Header/Header";
-import Trainers from "./components/Trainers/Trainers";
+import Trainer from "./components/Trainers/Trainers";
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
         <Route path="home" element={<Home />} />
         <Route path="category" element={<Category/>} />
           <Route path="category/:id" element={<SingleCategory />} />
-          <Route path="trainers" element={<Trainers/>} />
+          <Route path="trainers" element={<Trainer/>} />
         <Route path="about" element={<About/>} />
         <Route path="*" element={<NotFound/>} />
         </Routes>

@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css'
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import Trainers from "../Trainers/Trainers";
 
 const Header = () => {
   return (
@@ -19,8 +20,8 @@ const Header = () => {
             <NavLink className="nav-item" to="category">
               Category
             </NavLink>
-            <NavLink className="nav-item" to="trainer">
-              Trainer
+            <NavLink className="nav-item" to="trainers">
+             Trainers
             </NavLink>
             <NavLink className="nav-item" to="about">
               About Us
