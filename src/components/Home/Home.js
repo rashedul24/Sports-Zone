@@ -24,9 +24,9 @@ const Home = () => {
         {
           sports.map((sport) => <Popular
             key={sport.idSport}
-            sport={sport}
-          
-          ></Popular>)
+            sport={sport}          
+          ></Popular>
+            )
       }
         </div>
       </div>
