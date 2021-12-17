@@ -6,9 +6,9 @@ import Trainers from "../Trainers/Trainers";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
-        <NavLink to="/" className="heading">
+        <NavLink to="/" className="brand">
           Sports Zone
         </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

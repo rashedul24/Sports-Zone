@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
 import Header from "./components/Header/Header";
 import Trainer from "./components/Trainers/Trainers";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="about" element={<About/>} />
         <Route path="*" element={<NotFound/>} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
