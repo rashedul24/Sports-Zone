@@ -4,10 +4,11 @@ import { NavLink } from "react-router-dom";
 import "./AllSports.css";
 
 const AllSports = (props) => {
-  const { strSport, strSportThumb, strSportIconGreen, strFormat, idSport } =
-    props.singleSport;
+  // destructuring
+  const { strSport, strSportThumb, strSportIconGreen, strFormat, idSport, strPrice } =props.singleSport;
   return (
     <div>
+      {/* displaying sports in category section */}
       <div className="col-md-12">
         <div className="card">
           <img
@@ -24,6 +25,7 @@ const AllSports = (props) => {
             <p>
               <span className="fw-bold">Format</span>: {strFormat}
             </p>
+            <h5>Charge per month: ${strPrice }</h5>
             <Button variant="primary">
               <NavLink to={`/category/${idSport}`} className="single-sport">
                 Details

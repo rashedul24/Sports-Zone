@@ -3,9 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
+  // fonw awesome icon
   const copyRight = <FontAwesomeIcon icon={faCopyright} />;
   return (
     <div>
+      {/* footer section */}
       <div className="text-center my-5 p-5 mb-0 rounded bg-info">
         <h1>FITNESS. RECOVERY. PERFORMANCE.</h1>
         <h3>

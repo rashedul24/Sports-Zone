@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import AllSports from "../AllSports/AllSports";
 
 const Category = () => {
+  // state declaration
   const [allSports, setAllSports] = useState([]);
-
+// loading data
   useEffect(() => {
     fetch("/sportsDb.json")
       .then((res) => res.json())
@@ -16,6 +17,7 @@ const Category = () => {
       </div>
       <div className="col-md-12 p-5">
         <div className="row row-cols-lg-4 row-cols-md-3 g-4">
+          {/* mapping array */}
           {allSports.map((singleSport) => (
             <AllSports
               key={singleSport.idSport}

@@ -14,17 +14,17 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <Header />
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="home" element={<Home />} />
-        <Route path="category" element={<Category/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="category" element={<Category />} />
           <Route path="category/:id" element={<SingleCategory />} />
-          <Route path="trainers" element={<Trainer/>} />
-        <Route path="about" element={<About/>} />
-        <Route path="*" element={<NotFound/>} />
+          <Route path="trainers" element={<Trainer />} />
+          <Route path="about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );

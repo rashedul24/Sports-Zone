@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
+    // header section
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
         <NavLink to="/" className="brand">
@@ -16,6 +17,7 @@ const Header = () => {
           className="justify-content-end"
         >
           <Nav>
+            {/* navigation */}
             <NavLink className="nav-item" to="home">
               Home
             </NavLink>

@@ -2,9 +2,11 @@ import React from "react";
 import "./AllTrainer.css";
 
 const AllTrainer = (props) => {
+  // destructuring
   const { img, name, info } = props?.trainer;
   return (
     <div>
+      {/* trainers display section */}
       <div className="container">
         <div className="card trainer ">
           <img

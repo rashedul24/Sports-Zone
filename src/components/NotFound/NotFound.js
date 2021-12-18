@@ -5,6 +5,7 @@ import logo from "../../images/page-not-found-cartoon.png";
 const NotFound = () => {
   return (
     <div>
+      {/* url error page */}
       <div className="container my-5">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col">

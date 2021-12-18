@@ -1,20 +1,17 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// font awesome icon
 import {
-  faCashRegister,
-  faCoffee,
-  faDollarSign,
-  faMoneyBillAlt,
-  faMoneyBillWave,
   faShoppingBag,
 } from "@fortawesome/free-solid-svg-icons";
 import "./About.css";
 import athlet from "../../images/athlete.png";
 
 const About = () => {
-  const element = <FontAwesomeIcon icon={faShoppingBag} />;
+  const shoppingBag = <FontAwesomeIcon icon={faShoppingBag} />;
   return (
     <div>
+      {/* about section */}
       <div>
         <div>
           <div className=" container my-3 about-img">
@@ -34,7 +31,7 @@ const About = () => {
           </div>
           <div>
             <div className="payment text-center fs-1 my-3 text-danger">
-              {element} Payment
+              {shoppingBag} Payment
             </div>
             <p className="text-center">
               Every coaching session can be booked in minutes through Sports
