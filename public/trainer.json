@@ -1,0 +1,88 @@
+{
+  "trainers":[
+    {
+      "id": "101",
+      "name": "Mark Asanovich",
+      "info": "Mark Asanovich has fourteen years of NFL Strength and Conditioning experience. He most recently oversaw the Jacksonville Jaguars strength and conditioning program.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/mark-a-mug-1.jpg"
+      
+    },
+    {
+      "id": "102",
+      "name": "Matt Brzycki",
+      "info": "Matt Brzycki has authored, co-authored and edited seventeen books. In addition, he has authored more than 435 articles/columns on strength and fitness that have appeared in 44 different publications.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/matt-b-1.jpg"
+      
+    },
+    {
+      "id": "103",
+      "name": "Dr. Ellington Darden",
+      "info": "Dr. Ellington Darden is the leading disciple of the HIT training methods of Arthur Jones, the inventor of Nautilus exercise equipment. Darden, for 17 years the director of research for Nautilus Sports/Medical Industries.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/ellington_darden-1.jpg"
+      
+    },
+    {
+      "id": "104",
+      "name": "Jim Flanagan",
+      "info": "Jim Flangan worlds strongest man at the time and champion wrestler. He continued training with Milo for years to come and along the way met Arthur Jones, inventor of Nautilus and known worldwide as the man who changed the face of fitness forever.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/jimflanagan02-1.jpg"
+      
+    },
+    {
+      "id": "105",
+      "name": "Mike Gittleson",
+      "info": "Mike Gittleson spent thirty seasons as the Head Strength and Conditioning Coach for the University of Michigans football program. He was appointed the athletic departments first strength and conditioning coach in 1978. ",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/Mike-Gittleson-600-1.jpg"
+      
+    },
+    {
+      "id": "106",
+      "name": "Arthur Jones",
+      "info": "Arthur Jones’ ideas helped move the publics notion of bodybuilding and strength-training exercise away from the hours in the gym using free weights, to short, single sets with maximum intensity, which, according to theory, triggers maximal muscular growth.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/arthur-jones-nautilus-1.jpg"
+      
+    },
+    {
+      "id": "107",
+      "name": "Dr. Ted Lambrinides",
+      "info": "Dr. Ted Lambrinides is currently a strength and conditioning coach for the University of Kentucky. Ted did his undergraduate studies in business marketing and graduate studies in coaching and exercise science at The Ohio State University, where he began his career as a student assistant and graduate assistant strength and conditioning coach.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/dsc_0041-1.jpg"
+      
+    },
+    {
+      "id": "108",
+      "name": "Dr. Ken Leistner",
+      "info": "For decades a concerned voice in the powerlifting community as a competitor, trainer, judge, national athletes’ representative, and administrator and the author of articles ranging from training advice to political commentary for POWERLIFTING USA Magazine.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/Dr_Ken_big-1.jpg"
+      
+    },
+    {
+      "id": "109",
+      "name": "Ken Mannie ",
+      "info": "Ken Mannie enters his 18th year as Michigan States head strength and conditioning coach for football, while additionally directing and overseeing the strength and conditioning programs for all mens and womens sports. ",
+      "img": "https://strengthzonetraining.com/wp-content/uploads/2012/07/bilde.jpeg"
+      
+    },
+    {
+      "id": "110",
+      "name": "Dan Riley",
+      "info": "Dan Riley most recently was the strength and conditioning educator for the Memorial Hermann Sports Medicine Institute. Riley is a retired strength and conditioning coach having spent 27 of those years in the National Football League",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/dannyr-1.jpg"
+      
+    },
+    {
+      "id": "111",
+      "name": "Dr. Wayne Westcott ",
+      "info": "Dr. Wayne Westcott has been honored with the Lifetime Achievement Award from the International Association of Fitness Professionals, the Healthy American Fitness Leader Award from the Presidents Council on Physical Fitness and Sports",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/wayne-westcott-2-1.jpg"
+      
+    },
+    {
+      "id": "112",
+      "name": "Kim Wood",
+      "info": "Kim Wood started weight training as a youngster, training to become a better wrestler and football player. He continued his training behind the scenes, as a running back at the University of Wisconsin in the sixties…. long before the fancy weight rooms and training complexes known to todays players.",
+      "img": "https://www.strengthzonetraining.com/wp-content/uploads/2012/07/6a00d83453dfa869e2014e882cbba9970d-320wi-1.jpg"
+      
+    }
+  ]
+}

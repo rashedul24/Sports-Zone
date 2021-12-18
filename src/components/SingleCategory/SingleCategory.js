@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 const SingleCategory = () => {
@@ -17,7 +16,6 @@ const SingleCategory = () => {
     );
     setSingleSport(game);
   }, [id, sportsDetails]);
-  console.log(singleSport);
 
   return (
     <div>

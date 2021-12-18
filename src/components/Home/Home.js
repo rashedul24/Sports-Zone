@@ -7,8 +7,8 @@ const Home = () => {
   useEffect(() => {
     fetch('/homeSportsDb.json')
       .then(res => res.json())
-      .then(data =>  setSports(data.sports))
-      
+      .then(data => setSports(data.sports))
+   
   }, [])
   return (
     <div>
