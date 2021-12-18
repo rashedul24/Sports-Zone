@@ -2,7 +2,7 @@
 
 Your trusted partner.
 
-Live site : https://optimistic-newton-2d2274.netlify.app/category
+Live site : https://optimistic-newton-2d2274.netlify.app/
 
 ## Project Details
 
