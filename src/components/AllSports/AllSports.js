@@ -1,6 +1,10 @@
 import React from 'react';
-const Popular = (props) => {
-  const {strSport, strSportThumb, strSportIconGreen, strFormat} = props.sport
+import { Button } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import './AllSports.css';
+
+const AllSports = (props) => {
+  const { strSport, strSportThumb, strSportIconGreen, strFormat, idSport } = props.singleSport
   return (
     <div>
       <div className="col-md-12">
@@ -17,12 +21,16 @@ const Popular = (props) => {
             <p>
               <span className="fw-bold">Format</span>: {strFormat}
             </p>
-            
+            <Button variant="primary" >
+              <NavLink to={`/category/${idSport}`} className="single-sport">
+              Details
+              </NavLink>
+              </Button>
           </div>
         </div>
       </div>
-      </div>
+    </div>
   );
 };
 
-export default Popular;
+export default AllSports;

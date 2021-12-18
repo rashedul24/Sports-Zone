@@ -1,0 +1,67 @@
+{
+  "sports": [
+    {
+      "idSport": "102",
+      "strSport": "Soccer",
+      "strFormat": "TeamvsTeam",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/soccer.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/soccer.png"
+    },
+    {
+      "idSport": "105",
+      "strSport": "Baseball",
+      "strFormat": "TeamvsTeam",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/baseball.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/baseball.png"
+    },
+    {
+      "idSport": "106",
+      "strSport": "Basketball",
+      "strFormat": "TeamvsTeam",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/basketball.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/basketball.png"
+    },
+    
+    
+    {
+      "idSport": "111",
+      "strSport": "Tennis",
+      "strFormat": "EventSport",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/tennis.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/tennis.png"
+    },
+    {
+      "idSport": "112",
+      "strSport": "Cricket",
+      "strFormat": "TeamvsTeam",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/cricket.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/cricket.png"
+    },
+    
+    {
+      "idSport": "116",
+      "strSport": "Volleyball",
+      "strFormat": "TeamvsTeam",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/volleyball.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/volleyball.png"
+    },
+   
+    {
+      "idSport": "123",
+      "strSport": "Badminton",
+      "strFormat": "EventSport",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/badminton.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/badminton.png",
+      "strSportDescription": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are \"singles\" and \"doubles\"."
+    },
+    
+    {
+      "idSport": "130",
+      "strSport": "Table Tennis",
+      "strFormat": "EventSport",
+      "strSportThumb": "https://www.thesportsdb.com/images/sports/table_tennis.jpg",
+      "strSportIconGreen": "https://www.thesportsdb.com/images/icons/sports/tabletennis.png"
+    }
+    
+  ]
+}
