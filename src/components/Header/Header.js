@@ -1,8 +1,7 @@
 import React from "react";
-import './Header.css'
+import "./Header.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import Trainers from "../Trainers/Trainers";
 
 const Header = () => {
   return (
@@ -12,7 +11,10 @@ const Header = () => {
           Sports Zone
         </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-end"
+        >
           <Nav>
             <NavLink className="nav-item" to="home">
               Home
@@ -21,7 +23,7 @@ const Header = () => {
               Category
             </NavLink>
             <NavLink className="nav-item" to="trainers">
-             Trainers
+              Trainers
             </NavLink>
             <NavLink className="nav-item" to="about">
               About Us

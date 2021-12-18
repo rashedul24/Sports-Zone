@@ -20,20 +20,25 @@ const SingleCategory = () => {
   return (
     <div>
       <div className="container">
-      <div className="card">
-      <img
+        <div className="card">
+          <img
             src={singleSport?.strSportThumb}
             className="card-img-top img-thumbnail card-img"
             alt="..."
           />
-          
+
           <div className="card-body text-center">
             <h3 className="card-title">Name: {singleSport?.strSport}</h3>
-            <h4>Icon: <img src={singleSport?.strSportIconGreen} alt="" /></h4>
+            <h4>
+              Icon: <img src={singleSport?.strSportIconGreen} alt="" />
+            </h4>
             <p>
               <span className="fw-bold">Format</span>: {singleSport?.strFormat}
             </p>
-            <p><span className="fw-bold">Description</span>: {singleSport?.strSportDescription}</p>
+            <p>
+              <span className="fw-bold">Description</span>:{" "}
+              {singleSport?.strSportDescription}
+            </p>
           </div>
         </div>
       </div>
